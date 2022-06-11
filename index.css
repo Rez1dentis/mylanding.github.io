@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-image: url(imgs/background.jpg);
+    background-size: 100%;
+    }
+
+    .container {
+        width: 1000px;
+        min-height: 600px;
+        border: 10px solid rgba(239, 238, 234, 0);
+        margin: 0 auto;
+        margin-top: 100px;
+        background: rgba(239, 238, 234, 0.303);
+    }
+
+.header {
+    display: flex;
+    height: 130px;
+   }
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 53px;
+    font-weight: 370;
+    width: 80%;
+    height: 100%;
+    background: #fbf7f729;
+    margin-right: 10px;
+}
+
+.pic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1224500457?k=20&m=1224500457&s=612x612&w=0&h=LpjdY6okVWiKh8LT_LqcXz53kWaXVf47ThXKwMcCoHI=) no-repeat center center / cover;
+    
+}
+
+.nav ul {
+    display: flex;
+    background: rgba(36, 35, 35, 0.198);
+    margin: 10px 0;
+}
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    border-right: 1px solid black;
+    transition: background .5s ease; 
+}
+
+.nav li a:hover {
+    background: rgba(26, 25, 25, 0.198);
+}
+
+.wrapper {
+    display: flex;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+.sidebar {
+    padding: 20px;
+    width: 25%;
+    text-align: right;
+    font-size: 20px;
+}
+
+
+.skills li {
+    padding: 10px 0;
+    transition: transform .4s ease;
+    cursor: pointer;
+}
+
+.skills li a {
+    text-decoration: none;
+    color: black;
+}
+
+.skills li:hover {
+    
+    transform: translateX(10px);
+   }
+
+.content p img{
+    order: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+}
